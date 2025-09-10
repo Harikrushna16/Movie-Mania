@@ -1,3 +1,4 @@
+"use client";
 import { MasterDataContext } from "@/types/MasterDataContext";
 import axios from "axios";
 import React, {
