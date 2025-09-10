@@ -1,5 +1,10 @@
+import Banner from "@/components/BannerSection/Banner/Banner";
+import MainContext from "@/context/MasterContext";
+
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <MainContext>
+      <Banner />
+    </MainContext>
   );
 }
